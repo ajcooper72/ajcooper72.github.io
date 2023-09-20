@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Just a place to keep anything I've found in ServiceNow
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-linkedin_username: ajcooper72
+linkedin_username: aidancooper
 
 # Build settings
 theme: minima
