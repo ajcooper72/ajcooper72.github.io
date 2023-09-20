@@ -28,6 +28,8 @@ linkedin_username: aidancooper
 
 # Build settings
 theme: minima
+remote_theme: jekyll/minima
+
 plugins:
   - jekyll-feed
   - jekyll-paginate
