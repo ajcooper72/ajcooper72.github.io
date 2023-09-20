@@ -3,6 +3,7 @@ layout: post
 title:  "Build a Docker MID Server"
 date:   2023-09-20 10:18:02 +0100
 categories: mid_server docker
+excerpt: "How to build a MID Server using Docker on Windows"
 ---
 ## Introduction
 This post discusses how to configure and run a MID Server using Docker on you Windows computer.  The following software is required in order to install the MID Server.

@@ -30,6 +30,18 @@ linkedin_username: aidancooper
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+
+minima:
+  skin: dark
+  social-links:
+    linkedin: aidancooper
+
+show_excerpts: true
+paginate: false
+author:
+  email: mail@acooper.net
+  name: Aidan Cooper
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -50,3 +62,4 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
