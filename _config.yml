@@ -28,12 +28,12 @@ linkedin_username: aidancooper
 
 # Build settings
 theme: minima
-remote_theme: jekyll/minima
+#remote_theme: jekyll/minima
 
 plugins:
   - jekyll-feed
-  - jekyll-paginate
-  - jekyll-remote-theme
+  #- jekyll-paginate
+  #- jekyll-remote-theme
 
 minima:
   skin: dark
