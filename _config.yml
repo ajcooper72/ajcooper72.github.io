@@ -59,11 +59,13 @@ remote_theme: mmistakes/minimal-mistakes@4.24.0
 plugins:
   - jekyll-feed
   - jekyll-include-cache
-  #- jekyll-paginate
+  # - jekyll-paginate
   #- jekyll-remote-theme
 
 show_excerpts: true
-# paginate: false
+paginate: false
+# paginate: 5
+# paginate_path: "/posts/page:num/"
 # author:
 #   email: mail@acooper.net
 #   name: Aidan Cooper
@@ -107,5 +109,5 @@ defaults:
       share: true
       related: true
       show_date: true 
-      classes: wide    
+      classes: wide   
 
