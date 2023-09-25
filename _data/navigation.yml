@@ -1,0 +1,7 @@
+docs:
+  - title: "Archive"
+    children:
+    - title: "Categories"
+      url: /categories
+    - title: "Years"
+      url: /year-archive

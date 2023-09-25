@@ -24,11 +24,36 @@ author: Aidan Cooper
 description: >- # this means to ignore newlines until "baseurl:"
   Just a place to keep anything I've found in ServiceNow
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://sntips.acooepr.net" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: aidancooper
+logo: "/assets/servicenow-logo.png"
+minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+masthead_title: " "
+search: true
+
+social:
+  type:  Person
+  name:  Aidan Cooper
+  links:
+    - "https://www.linkedin.com/in/aidancooper"
+
+sidebar:
+  nav: "docs"
+
+author:
+  name     : "Aidan Cooper"
+  avatar   : "/assets/profile.jpg"
+  bio      : "ServiceNow CTA and Developer."
+  location : "Takeley, UK"    
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/aidancooper"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ajcooper72"
 
 # Build settings
-#theme: minima
 remote_theme: mmistakes/minimal-mistakes@4.24.0
 
 plugins:
@@ -36,11 +61,6 @@ plugins:
   - jekyll-include-cache
   #- jekyll-paginate
   #- jekyll-remote-theme
-
-# minima:
-#   skin: dark
-#   social-links:
-#     linkedin: aidancooper
 
 show_excerpts: true
 # paginate: false
@@ -67,4 +87,25 @@ show_excerpts: true
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: home
+    values:
+      sidebar:
+        nav: "docs"
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      show_date: true 
+      classes: wide    
 
