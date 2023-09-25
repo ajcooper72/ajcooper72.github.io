@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Hide Multi-row Variable Set Buttons"
 date:   2023-05-26 10:18:02 +0100
 categories: service_catalog css

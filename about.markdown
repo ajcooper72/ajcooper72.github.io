@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: About
 permalink: /about/
 ---
@@ -19,6 +19,7 @@ Passionate about delivering quality solutions to users and challenging myself wi
 </td>
 <td style="border:0px;">
 <ul>
+<li>ServiceNow Certified Technical Architect</li>
 <li>Microsoft Certified Azure Fundamentals</li>
 <li>AWS Certified Cloud Practitioner</li>
 <li>ITIL Foundation and Practitioner</li>

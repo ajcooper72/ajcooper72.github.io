@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Group list views in single page"
 date:   2020-10-27 10:18:02 +0100
 categories: javascript

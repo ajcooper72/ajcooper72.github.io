@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Writing Ajax Script Includes to work with ATF"
 date:   2020-07-21 10:18:02 +0100
 categories: ajax javascript atf

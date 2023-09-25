@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Build a Docker MID Server"
 date:   2023-09-20 10:18:02 +0100
 categories: mid_server docker
