@@ -2,8 +2,8 @@
 layout: single
 title:  "Watch for changes to Multi-Row Variable Sets"
 date:   2023-11-28 15:00:02 +0000
-categories: mid_server docker
-excerpt: "An onChange equivalent for "
+categories: service_catalog javascript
+excerpt: "An onChange equivalent for Multi-Row Variable Sets"
 ---
 ## Introduction
 I've created a couple of UI Scripts that can be used on the desktop and portal service catalogs to enable something similar to the onChange event available for other variables on the catalog item.
