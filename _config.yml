@@ -31,11 +31,11 @@ minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon
 masthead_title: " "
 search: true
 
-social:
-  type:  Person
-  name:  Aidan Cooper
-  links:
-    - "https://www.linkedin.com/in/aidancooper"
+# social:
+#   type:  Person
+#   name:  Aidan Cooper
+#   links:
+#     - "https://www.linkedin.com/in/aidancooper"
 
 sidebar:
   nav: "docs"
@@ -46,9 +46,9 @@ author:
   bio      : "ServiceNow CTA and Developer."
   location : "Takeley, UK"    
   links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/aidancooper"
+    # - label: "LinkedIn"
+    #   icon: "fab fa-fw fa-linkedin"
+    #   url: "https://www.linkedin.com/in/aidancooper"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ajcooper72"
