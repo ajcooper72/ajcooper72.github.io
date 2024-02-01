@@ -33,12 +33,15 @@ During the install process make sure you select "Use WSL 2 instead of Hyper-V". 
 Once installed, make the following changes to settings;
 
 - Under "General", make sure "Use the WSL 2 based engine" is selected;
+
 ![Docker Desktop General Settings](/assets/docker_general_settings.png)
 
 - Under "Resources", select "WSL Integration" and make sure "Enable integration with my default WSL distro" is selected.  You may also need to enable other distro's if not already selected.
+
 ![Docker Resources Settings](/assets/docker_resources_settings.png)
 
 - Under "Docker Engine", set the "buildkit" value to "false".  This was needed to fix issues with the build process.
+
 ![Docker Engine Settings](/assets/docker_engine_settings.png)
 
 ### ServiceNow Docker Recipe
