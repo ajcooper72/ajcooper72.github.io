@@ -143,7 +143,7 @@ This is modelled on the personalize_all.xml page provided out of the box.
 The config for the tabs is stored in a system property as a JSON object in the following format.
 
 
-{% highlight json %}
+```json
 {
   "title" : "title for the integration",
   "tabs": [
@@ -156,7 +156,7 @@ The config for the tabs is stored in a system property as a JSON object in the f
   }
 }
 
-{% endhighlight %}
+```
 
 ### Application Module
 Finally, to actually open the page, a URL (with parameters) module needs to be created with the following link;

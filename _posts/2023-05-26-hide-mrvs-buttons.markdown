@@ -10,7 +10,7 @@ Sometimes you need to control the buttons available on a multi-row variable set 
 
 In order to use the styles, create a new **Rich Text Label** and paste the stylesheet code into it.  Obviously remove the buttons you don't want to hide.
 
-{% highlight css %}
+```css
 <style>
 	/* hide MRVS buttons on portal */
 	sp-sc-multi-row-element .btn.btn-primary.m-r,   /* hide the add button */
@@ -35,4 +35,4 @@ In order to use the styles, create a new **Rich Text Label** and paste the style
 	}
 
 </style>
-{% endhighlight %}
+```

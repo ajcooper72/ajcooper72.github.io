@@ -11,7 +11,7 @@ As AJAX methods retrieve parameters using *getParameter* its best to split the a
 
 Below is a simple example where a sys_id of a user is passed in and a JSON object returned containing email address and phone number.
 
-{% highlight javascript %}
+```javascript
 var AjaxATFDemo = Class.create();
 AjaxATFDemo.prototype = Object.extendsObject(AbstractAjaxProcessor, {
 
@@ -43,12 +43,12 @@ AjaxATFDemo.prototype = Object.extendsObject(AbstractAjaxProcessor, {
 
 	type: 'AjaxATFDemo'
 });
-{% endhighlight %}
+```
 
 ## ATF Server Side Script
 The server side script test step can now call the non-AJAX method with a sys_id without needing to simulate a GlideAjax call in the client. Make sure there are some steps included to create the test user and set a phone and email address. This code is from the New York release so the test step returns a 'user' value, prior to New York the create record step will return a record_id. Use 'record_id' for instances before New York.
 
-{% highlight javascript %}
+```javascript
 (function(outputs, steps, stepResult, assertEqual) {
 
 	var user_sysid = steps('sys_id_of_step_creating_user').user;  // use record_id instead of user for pre-New York instances
@@ -75,4 +75,4 @@ The server side script test step can now call the non-AJAX method with a sys_id 
 	}
 
 })(outputs, steps, stepResult, assertEqual);
-{% endhighlight %}
+```
