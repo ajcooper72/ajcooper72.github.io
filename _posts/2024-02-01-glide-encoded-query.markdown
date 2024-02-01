@@ -15,7 +15,7 @@ Given the following encoded query
 caller_id=77ad8176731313005754660c4cf6a7de^priority=4
 ```
 
- We can now use the GlideQuery.parse() method where in the past we would have to build the equivalent .query() calls.  This is called and handled slightly differently to a normal GlideQuery call in that we don't need the 'new' keyword.
+ We can now use the GlideQuery.parse() method where in the past we would have to build the equivalent .where() calls.  This is called and handled slightly differently to a normal GlideQuery call in that we don't need the 'new' keyword.
 
  ```javascript
  var gqIncidents = global.GlideQuery.parse('incident', 'caller_id=77ad8176731313005754660c4cf6a7de^priority=4')
